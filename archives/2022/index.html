@@ -189,11 +189,17 @@
   <section class="archive">
     <div class="archive-container">
       <div class="archive-post">
-        <h3 class="archive-total">归档: 8 篇</h3>
+        <h3 class="archive-total">归档: 9 篇</h3>
         
         
           
             <h3 class="archive-year">2022 年</h3>
+          
+          <div class="archive-item">
+            <a class="archive-date" href="/2022/05/29/5%E6%9C%8829%E6%97%A5/">May 29</a>
+            <a class="archive-title" href="/2022/05/29/5%E6%9C%8829%E6%97%A5/">5月29日，今日解签，宜下江南</a>
+          </div>
+        
           
           <div class="archive-item">
             <a class="archive-date" href="/2022/04/04/4%E6%9C%8804%E6%97%A5/">April 04</a>
@@ -273,7 +279,7 @@
     let todayMinute = today.getMinutes();
     let todaySecond = today.getSeconds();
     // 在这里设置创站的年月日时分秒
-    let t1 = Date.UTC(2022,03,27,17,50,18);
+    let t1 = Date.UTC(2022,05,30,12,15,18);
     let t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
     let diff = t2-t1;
     let diffYears = Math.floor(diff/years);
